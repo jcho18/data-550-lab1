@@ -1,0 +1,67 @@
+---
+title: "data550_lab1"
+author: "Jae Yoon Cho"
+date: "14/11/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(shiny)
+```
+
+## Question 5
+```{r}
+runApp("barChart/")
+#864 191 1611 1298 14163 20804 2186 1868 4420 6230 116 234
+#NL PE NS NB QC ON MB SK AB BC YK NW
+#Number of People per Police Officer (by Region, 1995)
+```
+
+## Question 6
+```{r}
+runApp("scatterPlot/")
+```
+
+- "las" parameter controls numeric values indicating the orientation of the tick mark labels and any other text added to a plot after its initialization.
+
+## Question 7
+```{r}
+runApp("boxPlot_Q7/")
+```
+
+- According to the boxplot, the plot shows an extreme outlier near 1000 that is far off from the rest of the observation. In order to improve the boxplot, it is recommended to remove the outlier. 
+
+## Question 8
+```{r}
+runApp("hist_Q8/")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
